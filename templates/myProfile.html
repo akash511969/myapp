@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add profile</title>
+    <style>
+        .class2
+        {
+            background-color: antiquewhite;
+            font-family: "Times New Roman";
+            color: blue;
+        }
+        #Id2 {
+        background-color: brown;
+            font-family: Algerian;
+            color: bisque;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+<h1 id="Id2">This Is Id2</h1>
+<div class="class2">
+    <form action="/profile" method="get">
+        Name:<input type="text"  name="nm"  required><br>
+{#        #here 'nm' is the key#}
+        Residence:<input type="text" name="resi"><br>
+        Email:<input type="email" name="em"><br>
+        Password:<input type="password" name="pass"><br>
+        DOB:<input type="date"name="dob"><br>
+{#        Gender:<input name="Male" type="radio"></br>#}
+{#        <input type="radio" name="Female"><br>#}
+
+        <input id="Id2" type ="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
